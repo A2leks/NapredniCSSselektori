@@ -1,0 +1,23 @@
+a[href^="https://www.google"] {
+    color: green;
+}
+
+a[href^="https://www.link-group"] {
+    color: red;
+}
+
+#second-div p:nth-child(even) {
+    color: red;
+}
+
+#second-div p:nth-child(odd) {
+    color: blue;
+}
+
+#first-div > p::after {
+    content: " - NEW";
+    color: yellow;
+}
+p:last-child:hover {
+    font-style: italic;
+}
